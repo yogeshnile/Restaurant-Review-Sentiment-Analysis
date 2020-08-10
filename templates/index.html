@@ -9,6 +9,8 @@
 <!--===============================================================================================-->
 	<link rel="icon" type="image/png" href="{{ url_for('static', filename='images/icons/favicon.ico') }}"/>
 <!--===============================================================================================-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/Linearicons-Free-v1.0.0/icon-font.min.css') }}">
@@ -36,16 +38,33 @@
 			<span class="contact100-form-symbol">
 				<img src="{{ url_for('static', filename='images/icons/symbol-01.png') }}" alt="SYMBOL-MAIL">
 			</span>
-
-			<form class="contact100-form validate-form flex-sb flex-w">
+<!--=========================================================================================================================-->
+			{% if result == 0 %}
+			<center><p style="font-family: OpenSans-Regular">{{ message }}</p></center>  <br><br>
+			<div class="alert alert-danger" role="alert">
+                <center><b>This is Negative Review &nbsp;<img src="https://img.icons8.com/flat_round/30/000000/thumbs-down--v1.png"/></b>
+                </center>
+            </div>
+            <hr>
+            <center><a href="/"><button type="button" class="btn btn-success">Back to Home</button></a></center>
+<!--=========================================================================================================================-->
+			{% elif result == 1 %}
+			<center><p style="font-family: OpenSans-Regular">{{ message }}</p></center>  <br><br>
+			<div class="alert alert-success" role="alert">
+                <center><b>This is Positive Review &nbsp;<img src="https://img.icons8.com/ios-filled/30/000000/facebook-like.png"/></b>
+                </center>
+            </div>
+            <hr>
+            <center><a href="/"><button type="button" class="btn btn-success">Back to Home</button></a></center>
+<!--=========================================================================================================================-->
+			{% else %}
+			<form class="contact100-form validate-form flex-sb flex-w" name="input" action="/result" method="POST">
 				<span class="contact100-form-title">
-					Drop Us A Message
+					Drop a review
 				</span>
 
-				
-
 				<div class="wrap-input100 validate-input" data-validate = "Message is required">
-					<textarea class="input100" name="message" placeholder="Write Us A Message"></textarea>
+					<textarea class="input100" name="message" placeholder="Write Us A Review" required="complesary"></textarea>
 					<span class="focus-input100"></span>
 				</div>
 
@@ -55,10 +74,10 @@
 					</button>
 				</div>
 			</form>	
+<!--=========================================================================================================================-->
+			{% endif %}
 </div>
 </div>
-
-
 
 <!--===============================================================================================-->
 	<script src="{{ url_for('static', filename='js/main.js') }}"></script>
