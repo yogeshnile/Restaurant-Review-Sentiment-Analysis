@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sentiment analysis of Restaurant review</title>
+<!--===============================================================================================-->
+	<meta charset="UTF-8">
+<!--===============================================================================================-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="{{ url_for('static', filename='{{ url_for('static', filename='images/icons/favicon.ico') }}"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/Linearicons-Free-v1.0.0/icon-font.min.css') }}">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/util.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+<!--===============================================================================================-->
+	<meta name="description" content="Sentiment analysis of Restaurant review">
+<!--===============================================================================================-->
+    <meta name="author" content="Yogesh Nile">
+<!--===============================================================================================-->
+	<meta name="keywords" content="Sentiment analysis of Restaurant review">
+<!--===============================================================================================-->
+	<style type="text/css">
+		body{
+				background: url('https://source.unsplash.com/2000x900/?Restaurant') no-repeat top center;
+  				background-size: cover;
+  				height: 100vh;
+			}
+	</style>
+</head>
+
+<body>
+
+
+	<div class="container-contact100">
+		<div class="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
+
+		<div class="wrap-contact100">
+			<span class="contact100-form-symbol">
+				<img src="images/icons/symbol-01.png" alt="SYMBOL-MAIL">
+			</span>
+
+			<form class="contact100-form validate-form flex-sb flex-w">
+				<span class="contact100-form-title">
+					Drop Us A Message
+				</span>
+
+				
+
+				<div class="wrap-input100 validate-input" data-validate = "Message is required">
+					<textarea class="input100" name="message" placeholder="Write Us A Message"></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn">
+						Send
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<!--===============================================================================================-->
+</body>
+
+</html>
