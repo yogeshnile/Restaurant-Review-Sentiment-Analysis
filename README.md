@@ -6,6 +6,10 @@ In this repo i have develop a Sentiment Analysis of Restaurant Reviews project i
 # Motivation :monocle_face:
   - Nowadays we all eat food in most of the restaurants, so it is necessary that we find the best restaurants, or the restaurant owner has to analysis the reviews of his customers that they are positive and negative. To know this, I have developed this project
 
+# Technology used in Project :hotsprings:
+<img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/Heroku.png" width="200">  <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/pandas.png" width="300">    <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/numpy.png" width="200">     <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/sklearn.png" width="200">    <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/Flask.png" width="300">    <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/python_nltk.png" width="190">
+
+
 ## Bug / Feature Request :man_technologist:
 If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/yogeshnile/Restaurant-Review-Sentiment-Analysis/issues/new) by including your search query and the expected result.
 
