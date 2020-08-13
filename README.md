@@ -28,6 +28,101 @@ In this repo i have develop a Sentiment Analysis of Restaurant Reviews project i
   - Go to your browser and type http://127.0.0.1:5000/ in the address bar.
   - Finished...
 
+# Directory Tree :cactus:
+```bash
+.
+├── app.py
+├── corpus.pkl
+├── Images
+│   ├── 1.png
+│   ├── 2.png
+│   ├── 3.png
+│   └── 4.png
+├── LICENSE
+├── nltk.txt
+├── Procfile
+├── README.md
+├── requirements.txt
+├── Restaurant-reviews-model.pkl
+├── Restaurant_Reviews.tsv
+├── Sentiment Analysis of Restaurant Reviews.py
+├── static
+│   ├── css
+│   │   └── main.css
+│   ├── fonts
+│   │   ├── font-awesome-4.7.0
+│   │   │   ├── css
+│   │   │   │   ├── font-awesome.css
+│   │   │   │   └── font-awesome.min.css
+│   │   │   ├── fonts
+│   │   │   │   ├── FontAwesome.otf
+│   │   │   │   ├── fontawesome-webfont.eot
+│   │   │   │   ├── fontawesome-webfont.svg
+│   │   │   │   ├── fontawesome-webfont.ttf
+│   │   │   │   ├── fontawesome-webfont.woff
+│   │   │   │   └── fontawesome-webfont.woff2
+│   │   │   ├── HELP-US-OUT.txt
+│   │   │   ├── less
+│   │   │   │   ├── animated.less
+│   │   │   │   ├── bordered-pulled.less
+│   │   │   │   ├── core.less
+│   │   │   │   ├── fixed-width.less
+│   │   │   │   ├── font-awesome.less
+│   │   │   │   ├── icons.less
+│   │   │   │   ├── larger.less
+│   │   │   │   ├── list.less
+│   │   │   │   ├── mixins.less
+│   │   │   │   ├── path.less
+│   │   │   │   ├── rotated-flipped.less
+│   │   │   │   ├── screen-reader.less
+│   │   │   │   ├── stacked.less
+│   │   │   │   └── variables.less
+│   │   │   └── scss
+│   │   │       ├── _animated.scss
+│   │   │       ├── _bordered-pulled.scss
+│   │   │       ├── _core.scss
+│   │   │       ├── _fixed-width.scss
+│   │   │       ├── font-awesome.scss
+│   │   │       ├── _icons.scss
+│   │   │       ├── _larger.scss
+│   │   │       ├── _list.scss
+│   │   │       ├── _mixins.scss
+│   │   │       ├── _path.scss
+│   │   │       ├── _rotated-flipped.scss
+│   │   │       ├── _screen-reader.scss
+│   │   │       ├── _stacked.scss
+│   │   │       └── _variables.scss
+│   │   ├── Linearicons-Free-v1.0.0
+│   │   │   ├── icon-font.min.css
+│   │   │   └── WebFont
+│   │   │       ├── Linearicons-Free.eot
+│   │   │       ├── Linearicons-Free.svg
+│   │   │       ├── Linearicons-Free.ttf
+│   │   │       ├── Linearicons-Free.woff
+│   │   │       └── Linearicons-Free.woff2
+│   │   └── OpenSans
+│   │       ├── OpenSans-BoldItalic.ttf
+│   │       ├── OpenSans-Bold.ttf
+│   │       ├── OpenSans-ExtraBoldItalic.ttf
+│   │       ├── OpenSans-ExtraBold.ttf
+│   │       ├── OpenSans-Italic.ttf
+│   │       ├── OpenSans-LightItalic.ttf
+│   │       ├── OpenSans-Light.ttf
+│   │       ├── OpenSans-Regular.otf
+│   │       ├── OpenSans-Regular.ttf
+│   │       ├── OpenSans-SemiBoldItalic.ttf
+│   │       └── OpenSans-SemiBold.ttf
+│   ├── images
+│   │   └── icons
+│   │       ├── favicon.ico
+│   │       └── symbol-01.png
+│   └── js
+│       └── main.js
+└── templates
+    └── index.html
+
+16 directories, 73 files
+```
 # Technology used in Project :hotsprings:
 <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/Heroku.png" width="200">  <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/pandas.png" width="300">    <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/numpy.png" width="200">     <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/sklearn.png" width="200">    <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/Flask.png" width="300">    <img target="_blank" src="https://github.com/yogeshnile/technology/blob/master/python_nltk.png" width="190">
 
